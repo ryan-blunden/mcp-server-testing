@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "Discord": {
+      "command": "npx",
+      "args": [
+        "-y", 
+        "--package=@ryan.blunden/discord-sdk",
+        "--",
+        "mcp", 
+        "start",
+        "--scope=read",
+        "--scope=users",
+        "--scope=guilds",
+        "--scope=channels",
+        "--scope=messages",        
+        "--bot-token=${DISCORD_BOT_TOKEN}"
+      ],
+      "env": {
+        "NODE_NO_WARNINGS": "1"
+      }
+    }
+  }
+}

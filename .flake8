@@ -1,0 +1,7 @@
+[flake8]
+
+exclude = .venv, node_modules, migrations
+extend-ignore = E203, W503, E501
+per-file-ignores =
+    src/config/gunicorn.py: E231
+line-length = 120

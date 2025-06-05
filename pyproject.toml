@@ -1,0 +1,12 @@
+[project]
+name = "discord-mcp-client-demo"
+version = "0.1.0"
+description = "This is the companion code for the Speakeasy MCP overview video tutorial which demonstrates how to create an MCP (Model Context Protocol) client from scratch."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "logfire>=3.17.0",
+    "pydantic-ai>=0.2.14",
+    "python-dotenv>=1.1.0",
+    "rust-just>=1.40.0",
+]
